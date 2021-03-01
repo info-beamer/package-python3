@@ -1,5 +1,7 @@
 # Python3 service template
 
+[![Import](https://cdn.infobeamer.com/s/img/import.png)](https://info-beamer.com/use?url=https://github.com/info-beamer/package-python3)
+
 This package bundles a Python3 runtime into a
 [overlay.squashfs file](https://info-beamer.com/doc/package-services#customoverlay).
 info-beamer OS will detect this file and mount it as an overlay into the
