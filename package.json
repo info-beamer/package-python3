@@ -1,0 +1,15 @@
+{
+    "name": "Python3 Template",
+    "author": "Florian Wesch <fw@info-beamer.com>",
+    "desc": "Run Python3 services on info-beamer hosted",
+    "platforms": ["pi/v7", "pi/v8"],
+    "version": "3.7.3-1",
+    "offline": {
+        "support": "yes",
+        "info": "No internet connection required for detection"
+    },
+    "nesting": {
+        "parents": "any",
+        "childs": []
+    }
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+import time, sys
+while True:
+    print("Hello Python3", file=sys.stderr, flush=True)
+    time.sleep(1)
