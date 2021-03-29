@@ -39,6 +39,9 @@ python3-urllib3_1.24.1-1_all.deb
 python3.7-minimal_3.7.3-2+deb10u2_armhf.deb
 python3.7_3.7.3-2+deb10u2_armhf.deb
 python3_3.7.3-1_armhf.deb
+python3-pyinotify_0.9.6-1_all.deb
 ```
+
+The packages are listed in `debs/download.txt`. You can download them all at once with `cat download.txt | xargs apt download`.
 
 Then invoke `make` and you'll end up with a new version of `overlay.squashfs`.
