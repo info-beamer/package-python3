@@ -1,4 +1,7 @@
 {
     "name": "Python3 Node",
+    "permissions": {
+        "network": "Network access"
+    },
     "options": []
 }

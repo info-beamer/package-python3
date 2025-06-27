@@ -20,12 +20,12 @@ for deb in ../debs/*.deb; do
     fi
 done
 for dir in \
-    usr/lib/python3.7 \
-    usr/lib/python3.7/asyncio \
-    usr/lib/python3.7/encodings \
-    usr/lib/python3.7/importlib \
-    usr/lib/python3.7/multiprocessing \
-    usr/lib/python3.7/urllib \
+    usr/lib/python3.11 \
+    usr/lib/python3.11/asyncio \
+    usr/lib/python3.11/encodings \
+    usr/lib/python3.11/importlib \
+    usr/lib/python3.11/multiprocessing \
+    usr/lib/python3.11/urllib \
     usr/lib/python3/dist-packages \
     usr/lib/python3/dist-packages/certifi \
     usr/lib/python3/dist-packages/chardet \
@@ -43,10 +43,10 @@ ln -sf ${SCRATCH}/.python3-cache /tmp/python3-cache
 if [ ! -e /tmp/python3-cache/compiled ]; then
   find /usr/lib -name __pycache__ -exec mkdir -p "/tmp/python3-cache/{}" +
   echo "[*] precompiling python3 modules"
-  python3.7 -mcompileall /usr/lib/python3 -qq
-  python3.7 -mcompileall /usr/lib/python3.7 -qq
+  python3.11 -mcompileall /usr/lib/python3 -qq
+  python3.11 -mcompileall /usr/lib/python3.11 -qq
   touch /tmp/python3-cache/compiled 
 fi
-exec /usr/bin/python3.7 "$@"
+exec /usr/bin/python3.11 "$@"
 EOF
 chmod 755 usr/bin/python3

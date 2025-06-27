@@ -3,7 +3,7 @@
     "author": "Florian Wesch <fw@info-beamer.com>",
     "desc": "Run Python3 services on info-beamer hosted",
     "platforms": ["pi/v7", "pi/v8"],
-    "version": "3.7.3-1",
+    "version": "3.11.2",
     "offline": {
         "support": "yes",
         "info": "No internet connection required for detection"
