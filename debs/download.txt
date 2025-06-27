@@ -21,12 +21,14 @@ libzstd1_1.5.4+dfsg2-5_armhf.deb
 python3-certifi_2022.9.24-1_all.deb
 python3-chardet_5.1.0+dfsg-2_all.deb
 python3-charset-normalizer_3.0.1-2_all.deb
+python3-dateutil_2.8.2-2_all.deb
 python3-idna_3.3-1+deb12u1_all.deb
 python3-lxml_4.9.2-1_armhf.deb
 python3-pil_9.4.0-1.1+deb12u1_armhf.deb
 python3-pkg-resources_66.1.1-1+deb12u1_all.deb
 python3-pycryptodome_3.11.0+dfsg1-4_armhf.deb
 python3-pyinotify_0.9.6-2_all.deb
+python3-pytz-deprecation-shim_0.1.0.post0-3_all.deb
 python3-requests_2.28.1+dfsg-1_all.deb
 python3-six_1.16.0-4_all.deb
 python3-urllib3_1.26.12-1+deb12u1_all.deb
